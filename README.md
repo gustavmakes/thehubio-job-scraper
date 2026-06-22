@@ -2,8 +2,6 @@
 
 A small Playwright-based scraper for collecting job posting URLs from TheHub.io and extracting the visible text from each job page.
 
-It is designed to be simple, resumable, and conservative enough for personal research workflows.
-
 ## What it does
 
 1. Opens paginated TheHub.io job listing pages
