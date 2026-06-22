@@ -1,0 +1,23 @@
+{
+  "name": "thehubio-jobs-scraper",
+  "version": "1.0.0",
+  "description": "Playwright scraper for TheHub.io job listings and job pages.",
+  "main": "scrape-thehub-jobs.js",
+  "scripts": {
+    "test": "node scrape-thehub-jobs.js all --max-pages=3 --max-jobs=20 --concurrency=3",
+    "collect": "node scrape-thehub-jobs.js collect",
+    "scrape": "node scrape-thehub-jobs.js scrape",
+    "all": "node scrape-thehub-jobs.js all"
+  },
+  "keywords": [
+    "thehub",
+    "thehub.io",
+    "jobs",
+    "scraper",
+    "playwright"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "latest"
+  }
+}

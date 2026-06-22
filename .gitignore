@@ -1,0 +1,8 @@
+node_modules/
+output/
+*.jsonl
+*.csv
+job_links.txt
+errors.jsonl
+.DS_Store
+.env
